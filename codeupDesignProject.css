@@ -7,7 +7,7 @@
     width: 200%;
 }
 
-.container{
+.body{
     background-color: #e6e6e6;
 }
 
@@ -59,4 +59,9 @@
 
 .abel{
     font-family: "Abel";
+}
+
+.twitter{
+    color: dodgerblue;
+    font-size: 40px;
 }
