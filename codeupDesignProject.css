@@ -1,19 +1,20 @@
-.icon > img{
+.icon > img {
     height: 105px;
     width: 105px;
 }
-.stripe{
+
+.stripe {
     height: 80px;
     width: 200%;
 }
 
-.body{
-    background-color: #e6e6e6;
+.body {
+    background-color: #f0f0f0;
 }
 
 
 .circle {
-    border: solid 5px #F0F0F0;
+    border: solid 5px #e6e6e6;
     border-radius: 50%;
     color: white;
     font-family: "Anton";
@@ -24,6 +25,7 @@
     line-height: 95px;
     display: inline-block;
 }
+
 .smCircle {
     border-radius: 50%;
     color: black;
@@ -57,11 +59,54 @@
     font-family: "Anton";
 }
 
-.abel{
+.abel {
     font-family: "Abel";
 }
 
-.twitter{
+.twitter {
     color: dodgerblue;
     font-size: 40px;
+}
+
+.white{
+    background-color: white;
+}
+
+.wrapper {
+    background-color: white;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.brand-name {
+    font-size: 1.75em;
+}
+
+nav a {
+    font-size: .75em;
+    color: black;
+}
+
+.nav-background {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 59px;
+    width: 100%;
+    top: 37px;
+    z-index: -1000;
+
+}
+
+nav .nav-item {
+    position: relative;
+    bottom: 6px;
+}
+
+@media screen and (min-width: 992px) {
+    .brand-name {
+        position: relative;
+        top: 5px;
+    }
 }
